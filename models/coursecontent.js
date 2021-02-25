@@ -14,6 +14,10 @@ module.exports = (sequelize, DataTypes) => {
       CourseContent.belongsTo(models.Course, {foreignKey: "CourseId"})
       CourseContent.hasMany(models.UserCourse, {foreignKey: "courseContentId"})
     }
+    getDiscount() {
+      let tampilanDiskon = `${this.discount}%`
+      return tampilanDiskon 
+    }
   };
   CourseContent.init({
     course_name: DataTypes.STRING,

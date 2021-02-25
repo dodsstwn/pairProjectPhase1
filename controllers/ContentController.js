@@ -1,4 +1,5 @@
 const { Course, CourseContent } = require('../models');
+const totalHarga = require('../helper/totalharga');
 
 class ContentController {
   static findAll(req, res) {
@@ -9,7 +10,7 @@ class ContentController {
       order: [["id", "ASC"]]
     })
     .then(data => {
-      res.render('showContent', {data})
+      res.render('showContent', {data, format: totalHarga})
     })
     .catch(err => {
       res.send(err)

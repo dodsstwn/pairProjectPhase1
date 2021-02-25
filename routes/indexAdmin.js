@@ -17,5 +17,8 @@ routerAdmin.post('/adminAddData', ContentControllerAdmin.addData)
 routerAdmin.get('/editForm/:id', ContentControllerAdmin.editForm)
 routerAdmin.post('/editData/:id', ContentControllerAdmin.editData)
 
+// DELETE
+routerAdmin.get('/deleteData/:id', ContentControllerAdmin.deleteData)
+
 module.exports = routerAdmin
 

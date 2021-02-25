@@ -24,6 +24,11 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Student',
+    hooks: {
+      beforeCreate: (student, options) => {
+        student.password += '%c1o1u1r1s1e%' 
+      }
+    }
   });
   return Student;
 };
