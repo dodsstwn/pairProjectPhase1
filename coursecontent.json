@@ -1,0 +1,114 @@
+[
+  {
+    "course_name": "Matematika - SD",
+    "release_year": "2016",
+    "duration": "Course sampai 20 Maret 2020",
+    "price": 50000,
+    "discount": 10
+  },
+  {
+    "course_name": "IPA - SD",
+    "release_year": "2016",
+    "duration": "Course sampai 20 Maret 2020",
+    "price": 60000,
+    "discount": 10
+  },
+  {
+    "course_name": "IPS - SD",
+    "release_year": "2016",
+    "duration": "Course sampai 20 Maret 2020",
+    "price": 70000,
+    "discount": 30
+  },
+  {
+    "course_name": "Bahasa Inggris - SD",
+    "release_year": "2010",
+    "duration": "Course sampai 20 Maret 2020",
+    "price": 70000,
+    "discount": 30
+  },
+  {
+    "course_name": "Bahasa Indonesia - SD",
+    "release_year": "1945",
+    "duration": "Course sampai 20 Maret 2020",
+    "price": 170000,
+    "discount": 0
+  },
+  {
+    "course_name": "Matematika - SMP",
+    "release_year": "2016",
+    "duration": "Course sampai 20 Maret 2020",
+    "price": 50000,
+    "discount": 10
+  },
+  {
+    "course_name": "IPA - SMP",
+    "release_year": "2016",
+    "duration": "Course sampai 20 Maret 2020",
+    "price": 60000,
+    "discount": 10
+  },
+  {
+    "course_name": "IPS - SMP",
+    "release_year": "2016",
+    "duration": "Course sampai 20 Maret 2020",
+    "price": 70000,
+    "discount": 30
+  },
+  {
+    "course_name": "Bahasa Inggris - SMP",
+    "release_year": "2010",
+    "duration": "Course sampai 20 Maret 2020",
+    "price": 70000,
+    "discount": 30
+  },
+  {
+    "course_name": "Bahasa Indonesia - SMP",
+    "release_year": "1945",
+    "duration": "Course sampai 20 Maret 2020",
+    "price": 170000,
+    "discount": 0
+  },
+  {
+    "course_name": "Matematika - SMA",
+    "release_year": "2016",
+    "duration": "Course sampai 20 Maret 2020",
+    "price": 50000,
+    "discount": 10
+  },
+  {
+    "course_name": "KIMIA",
+    "release_year": "2015",
+    "duration": "Course sampai 20 April 2020",
+    "price": 50000,
+    "discount": 20
+  },
+  {
+    "course_name": "BIOLOGI",
+    "release_year": "2010",
+    "duration": "Course sampai 10 Maret 2020",
+    "price": 70000,
+    "discount": 30
+  },
+  {
+    "course_name": "FISIKA",
+    "release_year": "2012",
+    "duration": "Course sampai 10 Maret 2020",
+    "price": 60000,
+    "discount": 30
+  },
+  {
+    "course_name": "SEJARAH",
+    "release_year": "1918",
+    "duration": "Course sampai 10 Juni 2020",
+    "price": 10000,
+    "discount": 0
+  },
+  {
+    "course_name": "GEOGRAFI",
+    "release_year": "2009",
+    "duration": "Course sampai 10 Agustus 2020",
+    "price": 20000,
+    "discount": 20
+  }
+]
