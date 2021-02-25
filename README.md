@@ -5,7 +5,7 @@ Platform Course Online di masa kini untuk sobat SD, SMP dan SMA.
 Fitur :
 1. Page login untuk user (admin) dan student;
 2. Page register untuk student, untuk user (admin) kita sudah sediakan 3 akun (tidak bisa register).
-3. User bisa melakukan : 
+3. User/Admin bisa melakukan : 
   a. CREATE => category, course
   b. READ => seluruh data
   c. UPDATE => category, course
