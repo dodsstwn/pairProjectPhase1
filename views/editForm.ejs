@@ -21,14 +21,13 @@
       <select name="category" id="category">
         <option>---SELECT---</option>
         <% data2.forEach(i => {%>
-          <%if (data1.CourseId === data2.category) {%>
-            <option value="<%= data1.Course.id%>"selected> <%= data2.category%> </option>
+          <%if (data1.CourseId === i.id) {%>
+            <option value="<%= i.id%>"selected> <%= i.category%> </option>
           <% } else { %>
-            <option value="<%= data1.Course.id%>"> <%= data2.category%> </option>
+            <option value="<%= i.id%>"> <%= i.category%> </option>
           <% } %>
+          <%})%>
         </select>
-        <%})%>
-        
       <br>
       <br>
       <button type="submit">Submit</button>
