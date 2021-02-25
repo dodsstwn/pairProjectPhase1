@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Form | Sinau.id</title>
+</head>
+<body>
+  <h2>Edit Form From Admin</h2>
+  <form action="/editData/<%= data1.id%>" method="POST">
+      <div>
+        Course name : <input type="text" name="course_name" value="<%= data1.course_name%>"><br>
+        Release Year : <input type="text" name="release_year" value="<%= data1.release_year%>"><br>
+        Duration : <input type="text" name="duration" value="<%= data1.duration%>"><br>
+        Price : <input type="text" name="price" value="<%= data1.price%>"><br>
+        Discount : <input type="text" name="discount" value="<%= data1.discount%>"><br>
+      </div>
+    <div>
+      <label for="category">Course category : </label>
+      <select name="category" id="category">
+        <option>---SELECT---</option>
+        <% data2.forEach(i => {%>
+          <%if (data1.CourseId === data2.category) {%>
+            <option value="<%= data1.Course.id%>"selected> <%= data2.category%> </option>
+          <% } else { %>
+            <option value="<%= data1.Course.id%>"> <%= data2.category%> </option>
+          <% } %>
+        </select>
+        <%})%>
+        
+      <br>
+      <br>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+</body>
+</html>

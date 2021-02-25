@@ -17,7 +17,7 @@ class StudentController {
     .then(data => {
       for (let i = 0; i < data.length; i++) {
         if (data[i].email === student.email && data[i].password === student.password) {
-          res.send('<<<< Admin Berhasil Login | From the Controller')
+          res.redirect('/course')
         } else if (i === data.length - 1) {
           res.render('errorLoginForStudent')
         }
