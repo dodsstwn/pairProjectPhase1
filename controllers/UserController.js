@@ -22,7 +22,7 @@ class UserController {
     .then(data => {
       for (let i = 0; i < data.length; i++) {
         if (data[i].email === user.email && data[i].password === user.password) {
-          res.send('<<<< Admin Berhasil Login | From the Controller')
+          res.redirect('/courseAdmin')
         } else if (i === data.length - 1) {
           res.render('errorLoginForUser')
         }

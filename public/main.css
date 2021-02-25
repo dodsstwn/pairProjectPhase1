@@ -1,0 +1,14 @@
+table {
+  text-align: center;
+}
+h1, h3, p {
+  text-align: center;
+}
+.add {
+  display: flex;
+  justify-content: center;
+}
+.container-fluid {
+  height: 60px;
+  background-color: rgb(119, 168, 45);
+}
